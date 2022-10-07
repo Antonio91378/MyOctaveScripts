@@ -1,8 +1,8 @@
   #variables
-  matrix = [45,55,77,7474,89;255,44,14,11,417;71,1,417,1,77;75,7,17,7,17;47,17,7,17,34];
-  #matrix =[78,4,62;12,84,1;62,9,2]
+
+  #Random matriz choosed:
+  matrix = [78,98,45,12,98,32,74;78,45,71,0,98,74,42;74,95,31,74,98,41,96;74,54,95,74,32,41,477;74,98,56,17,48,9,711;74,41,74,32,65,19,0;63,6,9,4,5,7,3]
   originalMatrix = matrix;
-  matrixSize = size(matrix,1);
   subMatrix = matrix;
   #detSumVector receives the accumulated det value from the submatrices.
   detSumVector = [];
@@ -11,5 +11,5 @@
   submatricesVector(1) = subMatrix;
   #Loop feature
   contador = 1;
- #myRecDet(matrix, matrix, detSumVector, submatricesVector,contador)
 
+#myRecDet(matrix, matrix, detSumVector, submatricesVector,contador)
